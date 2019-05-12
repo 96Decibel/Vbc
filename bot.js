@@ -2,7 +2,7 @@ const Discord = require("discord.js");
   const kboosh = new Discord.Client();
     const kbooshtoken = "MzI3NzM2NTMyOTMwOTIwNDUw.DGmnLA.QFbtYXPzTAvZsoFW70wNLyVm3lE"
       kboosh.on('ready', () => {
-        kboosh.user.setGame(`Virex For Ever !`,'https://www.twitch.tv/TEST-Broadcast');
+        kboosh.user.setGame(`Virex | -bc`,'https://www.twitch.tv/TEST-Broadcast');
           console.log('Im Ready!');
   
         });
